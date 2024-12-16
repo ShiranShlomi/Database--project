@@ -1,0 +1,93 @@
+PL/SQL Developer Project
+
+[Options]
+AutoConnect=0
+Username=
+Password=2126
+Database=
+ConnectAs=
+Edition=
+Workspace=
+HaltAfterError=0
+BrowseHistory=0
+FileBrowser=0
+ShowItems=-1
+
+[History]
+Programs=
+SQL Scripts=
+Report Files=
+Test Scripts=
+Command Scripts=
+Diagram Files=
+
+[BrowserFolders]
+
+
+[Groups]
+Procedures=24,25,
+Functions=26,27,
+Integration=31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,
+Triggers=28,29,
+AlterTables=19,
+GrantRevokeCommitRollback=20,21,
+CreateInsertDropSelect=0,1,2,30,
+Queries=3,
+TextImporter=4,5,6,
+GibuyDB=7,
+Views=22,
+Reports=15,16,17,18,
+DG=8,9,10,11,12,13,14,
+QueriesParameters=23,
+
+[Files]
+1,0,,,משימות\משימה 2\drop.sql.sql
+1,0,,,משימות\משימה 2\select.sql.sql
+1,0,,,משימות\משימה 2\shiran.createtable.SQL
+1,0,,,משימות\משימה 3\Queries.sql
+0,0,,,משימות\משימה 6\containing importer.txt
+0,0,,,משימות\משימה 6\dish importer.txt
+0,0,,,משימות\משימה 6\waiter importer.txt
+0,0,,,משימות\משימה 6\gibuyDB.dmp
+8,4,,,משימות\משימה 5\containingDG.gd
+8,4,,,משימות\משימה 5\customerDG.gd
+8,4,,,משימות\משימה 5\dishDG.gd
+8,4,,,משימות\משימה 5\inviteDG.gd
+8,4,,,משימות\משימה 5\paymentDG.gd
+8,4,,,משימות\משימה 5\waiter_phoneDG.gd
+8,4,,,משימות\משימה 5\waiterDG.gd
+6,0,,,משימות\משימה 7\report1.rep
+6,0,,,משימות\משימה 7\report2.rep
+6,0,,,משימות\משימה 7\report3.rep
+6,0,,,משימות\משימה 7\report4.rep
+1,0,,,משימות\משימה 8\AlterTable.sql
+1,0,,,משימות\משימה 9\commitANDrollback.sql
+1,0,,,משימות\משימה 9\grantANDrevoke.sql
+1,0,,,משימות\משימה 4\VIEWS .sql
+1,0,,,משימות\משימה 5\שאילתות עם פרמטרים.sql
+3,4,,,משימות\משימה 10\GetYourDiscount.prc
+3,4,,,משימות\משימה 10\TryToWin.prc
+3,4,,,משימות\משימה 11\Orders.fnc
+3,4,,,משימות\משימה 11\WaiterSalery.fnc
+3,4,,,משימות\משימה 12\NewCustomer.trg
+3,4,,,משימות\משימה 12\waiter.trg
+1,0,,,משימות\משימה 2\insert.sql
+1,0,,,משימות\שלב ג\CreateSelectDrop\drop.sql
+1,0,,,משימות\שלב ג\CreateSelectDrop\IntegratedScheme.sql
+1,0,,,משימות\שלב ג\CreateSelectDrop\select.sql
+1,0,,,משימות\שלב ג\CreateSelectDrop\shiran.createtable.SQL
+8,4,,,משימות\שלב ג\DG\DGchef.gd
+8,4,,,משימות\שלב ג\DG\DGcontaining.gd
+8,4,,,משימות\שלב ג\DG\DGcustomer.gd
+8,4,,,משימות\שלב ג\DG\DGdish.gd
+8,4,,,משימות\שלב ג\DG\DGinvite.gd
+8,4,,,משימות\שלב ג\DG\DGpayment.gd
+8,4,,,משימות\שלב ג\DG\DGsale.gd
+8,4,,,משימות\שלב ג\DG\DGwaiter.gd
+8,4,,,משימות\שלב ג\DG\DGwaiterphone.gd
+1,0,,,משימות\שלב ג\FunProQueView\Queries MY.sql
+1,0,,,משימות\שלב ג\FunProQueView\queries OTHER.sql
+1,0,,,משימות\שלב ג\FunProQueView\sqeriesParameters MY.sql
+1,0,,,משימות\שלב ג\FunProQueView\VIEWS MY.sql
+
+[Notes]

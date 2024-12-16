@@ -1,0 +1,150 @@
+PL/SQL Developer Report
+
+[SQL]
+-- מספר ההזמנות עבור כל חודש שמחירן מעל 100
+
+select extract(month from date_order) as "Month",
+       count(id_order) as "Num of Orders"
+from invite
+where id_order in (select id_order
+                   from payment
+                   where price>100)
+group by extract(month from date_order)
+order by "Month"
+
+[Options]
+Connect=False
+Username=
+Password=2111
+Database=
+ConnectAs=
+LockMode=0
+LockedPassword=2314
+BkgColor=-16777211
+BkgImage=
+FormLayout=False
+OnlyNBSP=False
+LeftMargin=0
+TopMargin=0
+PageBreak=0
+AddSQL=False
+HandleTags=True
+
+[Styles]
+
+{Title}
+Enabled=True
+Name=Report Title
+Description=
+Style=Blue Header
+HeaderStyle=
+Align=3
+Break=0
+Function=0
+Format=
+
+{Param}
+Enabled=True
+Name=Variables
+Description=
+Style=Default Field Header
+HeaderStyle=
+Align=3
+Break=0
+Function=0
+Format=
+
+{Table}
+Enabled=False
+Name=Tabular Tables
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{Form}
+Enabled=False
+Name=Form Tables
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{Field}
+Enabled=False
+Name=Default Field
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{*}
+Enabled=True
+Name=Month
+Description=
+Style=Default Field Style
+HeaderStyle=Blue Field
+Align=3
+Break=0
+Function=0
+Format=0
+
+{*}
+Enabled=True
+Name=Num of Orders
+Description=
+Style=
+HeaderStyle=Blue Field
+Align=3
+Break=0
+Function=0
+Format=
+
+
+
+[CSS]
+*4-Month
+{
+}
+
+Blue Header
+{
+  Background: #400080;
+  Color: #FFE0E0;
+  Border-style: None;
+  Font-family: Arial;
+  Font-size: 9pt;
+  Font-weight: Bold;
+}
+
+Default Field Header
+{
+  Background: #E0E0E0;
+  Color: #000000;
+}
+
+Default Field Style
+{
+  Background: #F4F4F4;
+  Color: #000000;
+}
+
+Blue Field
+{
+  Background: #004080;
+  Color: #E0FFE0;
+  Border-style: None;
+  Font-family: Arial;
+  Font-size: 9pt;
+}
+
+

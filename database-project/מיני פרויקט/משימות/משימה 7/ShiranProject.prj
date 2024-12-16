@@ -1,0 +1,61 @@
+PL/SQL Developer Project
+
+[Options]
+AutoConnect=0
+Username=
+Password=2394
+Database=
+ConnectAs=
+Edition=
+Workspace=
+HaltAfterError=0
+BrowseHistory=0
+FileBrowser=0
+ShowItems=-1
+
+[History]
+Programs=
+SQL Scripts=
+Report Files=C:\Users\Sshlomi\Desktop
+Test Scripts=
+Command Scripts=
+Diagram Files=
+
+[BrowserFolders]
+
+
+[Groups]
+CreateInsertDropSelect=0,1,2,3,
+Queries=4,
+TextImporter=7,8,9,
+GibuyDB=10,
+Views=5,
+Reports=18,19,20,21,
+DG=11,12,13,14,15,16,17,
+QueriesParameters=6,
+
+[Files]
+1,0,,,משימות\משימה 2\drop.sql.sql
+1,0,,,משימות\משימה 2\insert.sql.sql
+1,0,,,משימות\משימה 2\select.sql.sql
+1,0,,,משימות\משימה 2\shiran.createtable.SQL
+1,0,,,משימות\משימה 3\Queries.sql
+1,0,,,משימות\משימה 4\VIEWS סופי.sql
+1,0,,,משימות\משימה 5\שאילתות עם פרמטרים סופי לחלוטין.sql
+0,0,,,משימות\משימה 6\containing importer.txt
+0,0,,,משימות\משימה 6\dish importer.txt
+0,0,,,משימות\משימה 6\waiter importer.txt
+0,0,,,משימות\משימה 6\gibuyDB.dmp
+8,4,,,משימות\משימה 5\containingDG.gd
+8,4,,,משימות\משימה 5\customerDG.gd
+8,4,,,משימות\משימה 5\dishDG.gd
+8,4,,,משימות\משימה 5\inviteDG.gd
+8,4,,,משימות\משימה 5\paymentDG.gd
+8,4,,,משימות\משימה 5\waiter_phoneDG.gd
+8,4,,,משימות\משימה 5\waiterDG.gd
+6,0,,,משימות\משימה 7\report1.rep
+6,0,,,משימות\משימה 7\report2.rep
+6,0,,,משימות\משימה 7\report3.rep
+6,0,,,משימות\משימה 7\report4.rep
+
+[Notes]

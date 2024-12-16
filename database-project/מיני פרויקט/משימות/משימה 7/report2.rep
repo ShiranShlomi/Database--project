@@ -1,0 +1,166 @@
+PL/SQL Developer Report
+
+[SQL]
+-- דוח פרוט כמות הזמנות עבור כל מלצר
+
+select lname,
+       fname,
+       waiter.id_waiter,
+       count(id_order) as "total order",
+       max(date_order) as "last order"
+    
+from waiter join invite 
+     on waiter.id_waiter = invite.id_waiter
+group by waiter.lname , waiter.fname ,waiter.id_waiter
+
+[Options]
+Connect=False
+Username=
+Password=2069
+Database=
+ConnectAs=
+LockMode=0
+LockedPassword=2114
+BkgColor=-16777211
+BkgImage=
+FormLayout=False
+OnlyNBSP=False
+LeftMargin=0
+TopMargin=0
+PageBreak=0
+AddSQL=False
+HandleTags=True
+
+[Styles]
+
+{Title}
+Enabled=True
+Name=Report Title
+Description=Waiter's report
+Style=Blue Title
+HeaderStyle=
+Align=3
+Break=0
+Function=0
+Format=
+
+{Param}
+Enabled=True
+Name=Variables
+Description=
+Style=
+HeaderStyle=
+Align=1
+Break=0
+Function=0
+Format=
+
+{Table}
+Enabled=False
+Name=Tabular Tables
+Description=
+Style=
+HeaderStyle=
+Align=1
+Break=0
+Function=0
+Format=
+
+{Form}
+Enabled=False
+Name=Form Tables
+Description=
+Style=
+HeaderStyle=
+Align=1
+Break=0
+Function=0
+Format=
+
+{Field}
+Enabled=False
+Name=Default Field
+Description=
+Style=
+HeaderStyle=
+Align=1
+Break=0
+Function=0
+Format=
+
+{*}
+Enabled=True
+Name=LNAME
+Description=
+Style=Default Field Style
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{*}
+Enabled=True
+Name=FNAME
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{*}
+Enabled=True
+Name=ID_WAITER
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+{*}
+Enabled=True
+Name=total order
+Description=
+Style=
+HeaderStyle=
+Align=3
+Break=0
+Function=2
+Format=
+
+{*}
+Enabled=True
+Name=last order
+Description=
+Style=
+HeaderStyle=
+Align=0
+Break=0
+Function=0
+Format=
+
+
+
+[CSS]
+Blue Title
+{
+  Background: #000050;
+  Color: #FFFF00;
+  Font-family: "Arial Black";
+  Font-size: 12pt;
+  Font-style: Italic;
+  Text-align: Center;
+  Width: 100%;
+}
+
+Default Field Style
+{
+  Background: #F4F4F4;
+  Color: #000000;
+}
+
+

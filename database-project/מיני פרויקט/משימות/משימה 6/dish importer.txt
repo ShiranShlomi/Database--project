@@ -1,0 +1,11 @@
+id_dish,price,name,type_dish
+11,15,icecoffe,last dish
+12,18,alfajores,last dish
+13,20,bread,first dish
+14,25,mini chips,first dish
+15,30,pizza margarita,main dish
+16,35,Cheese salad,main dish
+17,40,Belgian waffles,last dish
+18,45, potato gnocchi,main dish
+19,50,Cheese gnocchi,main dish
+20,55,denis fish,main dish
